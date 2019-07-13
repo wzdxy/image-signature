@@ -1,0 +1,22 @@
+{
+  "name": "nodeCanvas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "browser-detect": "^0.2.28",
+    "canvas": "^2.5.0",
+    "detect-browser": "^4.5.1",
+    "koa": "^2.7.0",
+    "koa-router": "^7.4.0",
+    "mobile-detect": "^1.4.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

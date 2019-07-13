@@ -52,7 +52,6 @@ router.get('/img', async (ctx, next) => {
 app.use(router.routes()).use(router.allowedMethods())
 app.listen(8000);
 
-
 function getLocation(ip) {
   return new Promise((resolve, reject) => {
    axios.get('https://api.map.baidu.com/location/ip?ip='+ip+'&ak=' + config.baiduKey).then((res) => {
